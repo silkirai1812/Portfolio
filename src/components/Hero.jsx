@@ -1,6 +1,8 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/pp.jpg";
 import { motion } from "framer-motion";
+import { SiLeetcode } from "react-icons/si";
+import { SiGeeksforgeeks } from "react-icons/si";
 
 const container = (delay) => ({
     hidden: {x:-100, opacity:0},
@@ -33,6 +35,15 @@ const Hero = () => {
             animate="visible"
             className="my-2 max-w-xl py-6">
                 {HERO_CONTENT}
+                <span className="flex items-center  mt-4">
+                  Visit my coding profiles : 
+                  <span className="flex items-center justify-center gap-8 text-3xl ml-3">
+                    <a href="https://leetcode.com/u/silkirai18/" target="_blank"><SiLeetcode /></a>
+                  <a href="https://www.geeksforgeeks.org/user/silkyrai18/" target="_blank">< SiGeeksforgeeks /></a>
+                  </span>
+                  
+                </span>
+                
             </motion.p>
         </div>
         </div>
@@ -41,7 +52,7 @@ const Hero = () => {
             <motion.img initial={{x:100, opacity: 0}}
             animate={{x:0, opacity:1}}
             transition={{duration: 1, delay : 1.2}}
-            width={380} height={350} className="my-6 rounded"
+            width={380} height={200} className="my-6 rounded"
              src={profilePic} alt="Silki Rai" />
         </div>
         </div>

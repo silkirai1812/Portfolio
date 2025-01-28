@@ -1,8 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si";
-import { SiGeeksforgeeks } from "react-icons/si";
 import { useState } from "react";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 
@@ -75,16 +73,16 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="text-gray-350 hover:text-gray-600 text-2xl">
-            <Link className="cursor-pointer " to="about" spy={true} smooth={true} offset={-100} duration={600}>About</Link>
+            <Link className="cursor-pointer " to="about" spy={true} smooth={true} offset={-100} duration={600} isDynamic={true} >About</Link>
           </div>
           <div className="text-gray-350 hover:text-gray-600 text-2xl">
-            <Link className="cursor-pointer " to="skills" spy={true} smooth={true} offset={-100} duration={600}>Skills</Link>
+            <Link className="cursor-pointer " to="skills" spy={true} smooth={true} offset={-100} duration={600} isDynamic={true} >Skills</Link>
           </div>
           <div className="text-gray-350 hover:text-gray-600 text-2xl">
-            <Link className="cursor-pointer " to="experience" spy={true} smooth={true} offset={-100} duration={700}>Experience</Link>
+            <Link className="cursor-pointer " to="experiences" spy={true} smooth={true} offset={-100} duration={700} isDynamic={true} >Experience</Link>
           </div>
           <div className="text-gray-350 hover:text-gray-600 text-2xl">
-            <Link className="cursor-pointer " to="projects" spy={true} smooth={true} offset={-100} duration={700}>Projects</Link>
+            <Link className="cursor-pointer " to="projects" spy={true} smooth={true} offset={-100} duration={700} isDynamic={true} >Projects</Link>
           </div>
           <div className="text-gray-350 hover:text-gray-600 text-2xl">
             <Link className="cursor-pointer " to="contact" spy={true} smooth={true} offset={-100} duration={800}>Contact</Link>
@@ -110,21 +108,21 @@ const Navbar = () => {
                 About
               </a>
               <a
-                href="#"
+                href="#skills"
                 className="block text-gray-400 hover:text-purple-500 w-full"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Skills
               </a>
               <a
-                href="#"
+                href="#experiences"
                 className="block text-gray-400 hover:text-purple-500 w-full"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Experience
               </a>
               <a
-                href="#home"
+                href="#projects"
                 className="block text-gray-400 hover:text-purple-500 w-full"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -145,8 +143,6 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/silki-rai-064bab255/" target="_blank"><FaLinkedin /></a>
           <a href="https://github.com/silkirai1812" target="_blank"><FaGithub /></a>
           <a href="https://x.com/silki_rai" target="_blank"><FaTwitterSquare /></a>
-          <a href="https://leetcode.com/u/silkirai18/" target="_blank"><SiLeetcode /></a>
-          <a href="https://www.geeksforgeeks.org/user/silkyrai18/" target="_blank">< SiGeeksforgeeks /></a>
         </div>
       </nav>
     );
