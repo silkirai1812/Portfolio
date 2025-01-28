@@ -60,10 +60,10 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project4,
-    link: "https://github.com/silkirai1812/PinterestClone",
+    link: "https://github.com/silkirai1812/Portfolio",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React","Node", "Tailwind"],
+    technologies: ["HTML", "CSS", "React","NodeJs", "Tailwind"],
   },
   
 ];
