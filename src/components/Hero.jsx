@@ -38,7 +38,7 @@ const Hero = () => {
                 <span className="flex items-center  mt-4">
                   Visit my coding profiles : 
                   <span className="flex items-center justify-center gap-8 text-3xl ml-3">
-                    <a href="https://leetcode.com/u/silkirai18/" target="_blank"><SiLeetcode /></a>
+                    <a href="https://leetcode.com/u/silkii18/" target="_blank"><SiLeetcode /></a>
                   <a href="https://www.geeksforgeeks.org/user/silkyrai18/" target="_blank">< SiGeeksforgeeks /></a>
                   </span>
                   
