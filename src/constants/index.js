@@ -48,9 +48,7 @@ export const PROJECTS = [
     image: projectAI,
     link: "https://github.com/silkirai1812/AIChatApp",
     description:
-      "A full-stack real-time collaborative chat application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to work in project-based rooms with collaborators, live chat, and AI-powered assistant powered by the Gemini API.
-
-.",
+      "A full-stack real-time collaborative chat application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to work in project-based rooms with collaborators, live chat, and AI-powered assistant powered by the Gemini API.",
     technologies: ["MERN Sack", "AI", "Socket.IO"],
   },
   {
