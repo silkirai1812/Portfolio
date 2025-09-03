@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.png";
+import projectcrowd from "../assets/projects/projectcrowd.png";
+import projectAI from "../assets/projects/projectAI.png";
 
 export const HERO_CONTENT = `I am a pre-final year student pursuing B.Tech. in Computer Science & Engineering from Babu Banarasi Das Institute Of Technology & Management, Lucknow
 I’m a curious learner and passionate Software Developer in the making. I’m on a journey to turn my love for coding into solutions that make a difference.
